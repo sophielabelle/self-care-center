@@ -6,3 +6,64 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+* {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    background-image: linear-gradient(#134d71,#78a7c6, #f7e4bf);
+    height: 100%;
+}
+
+.header {
+    color: #ffffff;
+}
+
+.selection-form{ 
+    display: flex;
+    width: 45%;
+    height: 70px;
+    margin: 4vh auto;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.radio-btn {
+    display: flex;
+    color:black;
+    margin-left: 75px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    width: 127px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #134d71;
+}
+
+.view-box {
+    display: flex;
+    width: 65%;
+    height: 90px;
+    padding: 15px;
+    margin: 8vh auto;
+    border-radius: 10px;
+    background-color: white; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.yogi-img {
+    width: 80px;
+    height: 90px;
+}
+/* 
+mantra box white has rounded edges and size
+*/
