@@ -3,24 +3,30 @@
   <head>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Self Care Center</title>
   </head>
   <body>
     <h1 class="header">✨ Self Care Center ✨</h1>
-    <h3 class="header">Which type of message?</h3>
+    <h3 class="header user-header">Which type of message?</h3>
     <section class="selection-form" id="user-form">
         <div class="radio-btn">
+
           <label class="radio-button" id="radio1">
           <input type="radio" name="radio"/>affirmation</label>
+
           <label class="radio-button" id="radio2">
-          <input type="radio" name="radio"/>mantra</label><br>
+          <input type="radio" name="radio"/>mantra</label>
+
         </div>
         <div>
-          <button class="button">Receive Message</button>
+          <button class="revieve-button" id="recieve-btn">Receive Message</button>
         </div>
     </section>
-    <section class="view-box">
-      <img class="yogi-img" src="./assets/meditate.svg">
+    <section class="message-box">
+      <img class="meditate-img hidden" src="./assets/meditate.svg">
+      <p class="message hidden" id="view-message"></p>
     </section>
     <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="./assets/message-list.js"></script>
   </body>
 </html>

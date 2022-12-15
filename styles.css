@@ -6,40 +6,43 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
-* {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-}
 
 html {
     background-image: linear-gradient(#134d71,#78a7c6, #f7e4bf);
-    height: 100%;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .header {
     color: #ffffff;
 }
 
-.selection-form{ 
+.user-header {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.selection-form { 
     display: flex;
-    width: 45%;
-    height: 70px;
-    margin: 4vh auto;
+    width: 465px;
+    height: 80px;
+    margin: 2vh auto;
+    margin-top: 5px;
     border-radius: 10px;
     background-color: white;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 .radio-btn {
     display: flex;
     color:black;
-    margin-left: 75px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.button {
+.recieve-button {
     width: 127px;
     height: 25px;
     margin: 5px;
@@ -48,22 +51,20 @@ html {
     background-color: #134d71;
 }
 
-.view-box {
+.message-box {
     display: flex;
-    width: 65%;
+    width: 700px;
     height: 90px;
     padding: 15px;
     margin: 8vh auto;
     border-radius: 10px;
+    color: black;
     background-color: white; 
     flex-direction: row;
     justify-content: space-around;
 }
 
-.yogi-img {
+.meditate-img {
     width: 80px;
     height: 90px;
 }
-/* 
-mantra box white has rounded edges and size
-*/
