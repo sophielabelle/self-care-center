@@ -42,7 +42,7 @@ html {
     justify-content: space-around;
 }
 
-.recieve-button {
+.receive-button {
     width: 127px;
     height: 25px;
     margin: 5px;
@@ -67,4 +67,5 @@ html {
 .meditate-img {
     width: 80px;
     height: 90px;
+    align-items: center;
 }

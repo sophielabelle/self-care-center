@@ -8,7 +8,7 @@ var meditateImg = document.querySelector('.meditate-img')
 
 var message = document.querySelector('#message-view');
 // Event Listener
-console.log(radioBtns)
+
 receiveMessageBtn.addEventListener('click', displayMessage);
 
 
@@ -17,9 +17,9 @@ receiveMessageBtn.addEventListener('click', displayMessage);
 
 function displayMessage() {
     for (var i = 0; i < radioBtns.length; i++) {
-        if (radioBtns[i].checked == affirmBtn) {
+        if (radioBtns[i].checked) {
             message.innerHTML = affirmations[randomMessage(affirmations)];
-        } else {
+        } else if (radioBtns[i].checked) {
             message.innerHTML = mantras[randomMessage(mantras)];
         };
     };
