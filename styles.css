@@ -62,10 +62,10 @@ html {
     background-color: white; 
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .meditate-img {
     width: 80px;
     height: 90px;
-    align-items: center;
 }
