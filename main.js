@@ -1,36 +1,28 @@
 // Variables
-var radioBtns = document.querySelector('.radio-button')
-var affirmBtn = document.querySelector('#radio1');
-var mantraBtn = document.querySelector('#radio2');
-var recieveMessageBtn = document.querySelector('#recieve-btn');
+var affirmBtn = document.querySelector('#radio1')
+var mantraBtn = document.querySelector('#radio2')
+
+var receiveMessageBtn = document.querySelector('#receive-btn');
 var meditateImg = document.querySelector('.meditate-img')
 
-var message = document.querySelector('#view-message');
+var message = document.querySelector('#message-view');
+
+
 // Event Listener
-
-recieveMessageBtn.addEventListener('click', displayMessage());
-
+receiveMessageBtn.addEventListener('click', displayMessage);
+// event listener for the fav button pressed 
 
 // Functions----------------------------------
-// show message in 2nd box when button is clicked and removes the meditation image from box
+
 function displayMessage() {
-    show(message);
-    hide(meditateImg);
-    if (affirmBtn.checked == true){
-        message.innerText = randomMessage(affirmations);
-    } else if (mantraBtn.checked == true) {
-        message.innerText = randomMessage(mantras);
-    };
+    if(affirmBtn.checked) {
+        message.innerHTML = affirmations[randomMessage(affirmations)]
+    } else if (mantraBtn.checked) {
+        message.innerHTML = mantras[randomMessage(mantras)];
+    }
 };
 
-function show(element) {
-    element.classList.remove('hidden')
-};
-
-function hide(element) {
-    element.classList.add('hidden')
-};
 
 function randomMessage(array) {
-    return Math.floor(math.random() * array.length);
+    return Math.floor(Math.random() * array.length);
 };
