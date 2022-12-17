@@ -6,24 +6,37 @@
     <title>Self Care Center</title>
   </head>
   <body>
-    <h1 class="header">✨ Self Care Center ✨</h1>
-    <h3 class="header user-header">Which type of message?</h3>
-    <section class="selection-form" id="user-form">
-        <div class="radio-btn">
+    <section class="main-page-view" id="main-page">
+      <h1 class="header">✨ Self Care Center ✨</h1>
+      <h3 class="header user-header">Which type of message?</h3>
+      <section class="selection-form" id="user-form">
+          <div class="radio-btn">
+            <label class="radio-button">
+            <input type="radio" name="radio"id="radio1"/>affirmation</label>
+            <label class="radio-button">
+            <input type="radio" name="radio" id="radio2"/>mantra</label>
+          </div>
+          <div>
+            <button class="receive-button" id="receive-btn">Receive Message</button>
+          </div>
+      </section>
+      <section class="message-box">
+        <img class="meditate-img" src="./assets/meditate.svg">
+        <p class="message-view" id="message-view"></p>
+        <button class="favorite-button hidden" id="favorite-btn">💙</button>
+      </section>
+      <section>    
+        <button class="show-favorites-button" id="fave-view-btn">View Favorites</button>
+      </section>
+    </section>
 
-          <label class="radio-button">
-          <input type="radio" name="radio"id="radio1"/>affirmation</label>
-          <label class="radio-button">
-          <input type="radio" name="radio" id="radio2"/>mantra</label>
-        
-        </div>
-        <div>
-        <button class="receive-button" id="receive-btn">Receive Message</button>
-        </div>
+    <section class="saved-page-view hidden" id="saved-page">
+      <section class="saved">
+        <button class="home-button" id="home-button">Home</button>
+        <div class="saved-favorites" id="saved-favs"></div>
+      </section>
     </section>
-    <section class="message-box" id="message-view">
-      <img class="meditate-img hidden" src="./assets/meditate.svg">
-    </section>
+
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="./assets/message-list.js"></script>
   </body>
