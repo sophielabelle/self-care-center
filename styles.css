@@ -8,64 +8,121 @@ black - #000000;
 */
 
 html {
-    background-image: linear-gradient(#134d71,#78a7c6, #f7e4bf);
-    height: 100vh;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
+  background-image: linear-gradient(#134d71,#78a7c6, #f7e4bf);
+  height: 100vh;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .header {
-    color: #ffffff;
+  color: #ffffff;
+  margin-top: 5vh;
 }
 
 .user-header {
-    margin-top: 30px;
-    margin-bottom: 5px;
+  margin-top: 10vh;
+  margin-bottom: 1vh;
+}
+.main-page-view {
+  display: flex;
+  flex-direction: column;
 }
 
 .selection-form { 
-    display: flex;
-    width: 465px;
-    height: 80px;
-    margin: 2vh auto;
-    margin-top: 5px;
-    border-radius: 10px;
-    background-color: white;
-    flex-direction: column;
-    justify-content: space-evenly;
+  display: flex;
+  width: 465px;
+  height: 80px;
+  margin: 2vh auto;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .radio-btn {
-    display: flex;
-    color:black;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  color:black;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .receive-button {
-    width: 127px;
-    height: 25px;
-    margin: 5px;
-    border-radius: 5px;
-    color: #ffffff;
-    background-color: #134d71;
+  width: 127px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #134d71;
 }
 
 .message-box {
-    display: flex;
-    width: 700px;
-    height: 90px;
-    padding: 15px;
-    margin: 8vh auto;
-    border-radius: 10px;
-    color: black;
-    background-color: white; 
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  width: 700px;
+  height: 90px;
+  padding: 15px;
+  margin: 8vh auto;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  color: black;
+  background-color: white; 
+  flex-direction: column;
+  align-items: center;
 }
 
 .meditate-img {
-    width: 80px;
-    height: 90px;
+  width: 80px;
+  height: 90px;
+}
+
+.favorite-button {
+  font-size: xx-large;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.show-favorites-button {
+  width: 127px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #134d71;
+}
+.saved {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.saved-favorites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.faves {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 320px;
+  height: 70px;
+  margin-top: 50px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.home-button {
+  font-size: medium;
+  padding: 3px; 
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #134d71;
+}
+
+.hidden {
+  display: none;
 }
