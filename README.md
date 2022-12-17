@@ -1,51 +1,37 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
 # Self-Care Center 
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+[//]: <> I built a page that you can go to when you need some self care support. You can either select affirmations or mantras then recieve your message. If you love a message there is a favorite button that can save it for you. Once you have a couple saved you can view all you favorited messages in one place. You can go back to the home view and continue to add to your favorite list. 
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+[//]: <>
+1. Fork and clone this repo.
+1. Type cd self-care-center to move into the root directory
+1. Type code . to open it in your code editor
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+[//]: <> (https://user-images.githubusercontent.com/117314181/208222839-2e25234a-4d6b-4168-b2ea-caa074fe21db.png)
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+[//]: <> 
+I spent around 15 hours on this project and am in the third week of turing. 
+
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+[//]: <> 
+Sophie LaBelle 
+https://github.com/sophielabelle
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
+To understand the communication between HTML, CSS, and Javascript. To learn the syntax and write a whole HTML and CSS file for the first time and understand the relationships that exist between all the file types. 
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+    I was able to write out multiple functions and several lines of code and on my first try with running the code it worked! I felt like I was actually capible of writing functional code on my own!
+
+    When I was able to get the styling components almost all the way done the first night. It allowed me to start building the code to make things work the next day. 
+
+    Finding a place to start was often challenging. It helped to write out the steps of what I would actually need to do then build the code from there. 
+
+    Writing my first HTML and CSS files starting from very little was hard. I feel as though I understand the structure of how it needs to be written and how important correct syntax and indentation is for understanding the code. 
