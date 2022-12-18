@@ -19,7 +19,7 @@ receiveMessageBtn.addEventListener('click', displayMessage)
 addFavorieBtn.addEventListener('click', addToFavorites)
 favesViewBtn.addEventListener('click', showSavedView)
 homeBtn.addEventListener('click', showHomeView)
-savedView.addEventListener('dblclick', deleteSavedMessage)
+savedView.addEventListener('click', deleteSavedMessage)
 
 // Functions----------------------------------
 function displayMessage() {
@@ -32,30 +32,33 @@ function displayMessage() {
         show(addFavorieBtn)
         hide(meditateImg)
     } else {
-        alert("✨Please select Affirmation or Mantra✨")
+        alert('✨Please select Affirmation or Mantra✨')
     }
 }
 
 function addToFavorites() {
-    favoriteMessages.push(message.innerText)
-    hide(addFavorieBtn)
+    if(!favoriteMessages.includes(message.innerText)) {
+        favoriteMessages.push(message.innerText)
+        hide(addFavorieBtn)
+    } else {
+        alert('This message has already been saved!')
+    }
 }
 
 function showSavedView() {
     show(savedView)
     hide(mainView)
     for (var i = 0; i < favoriteMessages.length; i++) {
-        showAllSaved.innerHTML += `<p class="faves" id="${i}">${favoriteMessages[i]}</p>`
+        showAllSaved.innerHTML += `<div class="faves">
+        <p id="${i}">${favoriteMessages[i]}</p>
+        <button class="delete-btn" id="${i}">💙</button></div>`
     }
 }
-
-function deleteSavedMessage() {
-    var target = event.target
-    for (var i = 0; i < favoriteMessages.length; i++) {
-        if(favoriteMessages[i] === target.innerText) {
-            favoriteMessages.splice(i, 1)
-            target.remove()
-        }
+ 
+function deleteSavedMessage(e) {
+    if(e.target.className === 'delete-btn' ) {
+        favoriteMessages.splice(this.id, 1)
+        e.target.parentNode.remove()
     }
 }
 

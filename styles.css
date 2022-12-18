@@ -8,7 +8,7 @@ black - #000000;
 */
 
 html {
-  background-image: linear-gradient(#134d71,#78a7c6, #f7e4bf);
+  background: linear-gradient(#134d71,#78a7c6, #f7e4bf);
   height: 100vh;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -100,6 +100,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-direction: row;
 }
 
 
@@ -108,9 +109,10 @@ html {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  width: 320px;
-  height: 70px;
-  margin-top: 50px;
+  align-items: center;
+  width: 300px;
+  height: 120px;
+  margin: 15px;
   border-radius: 5px;
   color: black;
   background-color: white;
@@ -123,6 +125,14 @@ html {
   border-radius: 5px;
   color: white;
   background-color: #134d71;
+}
+
+.delete-btn {
+  font-size: xx-large;
+  width: 40px;
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 .hidden {
