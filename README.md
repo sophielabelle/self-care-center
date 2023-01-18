@@ -15,7 +15,7 @@ I built a page that you can go to when you need some self care support. You can 
 
 ### Preview of App:
 [//]: <> 
-https://user-images.githubusercontent.com/117314181/208222839-2e25234a-4d6b-4168-b2ea-caa074fe21db.png
+![Screenshot 2023-01-18 at 12 42 23 PM](https://user-images.githubusercontent.com/117314181/213290578-b8e6351d-4fe9-444b-9139-d23900f35d4d.png)
 
 ### Context:
 [//]: <> 
@@ -24,7 +24,7 @@ I spent around 15 hours on this project and am in the third week of turing.
 
 ### Contributors:
 [//]: <> 
-(Sophie LaBelle)[https://github.com/sophielabelle]
+[Sophie LaBelle](https://github.com/sophielabelle)
 
 ### Learning Goals:
 [//]: <> 
